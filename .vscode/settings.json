@@ -3,7 +3,7 @@
         "editor.defaultFormatter": "xaver.clang-format"
     },
     "[c]": {
-        "editor.defaultFormatter": "xaver.clang-format"
+        "editor.defaultFormatter": "ms-vscode.cpptools"
     },
     "clang-format.executable": "clang-format-18",
     "clang-tidy.executable": "clang-tidy-18",
