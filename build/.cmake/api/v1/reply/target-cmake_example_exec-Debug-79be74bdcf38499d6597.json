@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cmake_example_exec.exe"
-		},
-		{
-			"path" : "cmake_example_exec.pdb"
+			"path" : "cmake_example_exec"
 		}
 	],
 	"backtrace" : 1,
@@ -91,16 +88,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "cmake_example_exec",
-	"nameOnDisk" : "cmake_example_exec.exe",
+	"nameOnDisk" : "cmake_example_exec",
 	"paths" : 
 	{
 		"build" : ".",

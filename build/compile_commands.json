@@ -1,8 +1,8 @@
 [
 {
-  "directory": "C:/Users/mauri/repository/Labor/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -std=gnu11 -Wall -Wextra -pedantic -O0 -o CMakeFiles\\cmake_example_exec.dir\\calculatepercentages.c.obj -c C:\\Users\\mauri\\repository\\Labor\\calculatepercentages.c",
-  "file": "C:/Users/mauri/repository/Labor/calculatepercentages.c",
-  "output": "CMakeFiles/cmake_example_exec.dir/calculatepercentages.c.obj"
+  "directory": "/workspaces/Labor/build",
+  "command": "/usr/bin/gcc -g -std=gnu11 -Wall -Wextra -pedantic -O0 -o CMakeFiles/cmake_example_exec.dir/calculatepercentages.c.o -c /workspaces/Labor/calculatepercentages.c",
+  "file": "/workspaces/Labor/calculatepercentages.c",
+  "output": "CMakeFiles/cmake_example_exec.dir/calculatepercentages.c.o"
 }
 ]
