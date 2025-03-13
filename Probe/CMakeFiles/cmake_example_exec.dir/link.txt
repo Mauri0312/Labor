@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/cmake_example_exec.dir/link.d CMakeFiles/cmake_example_exec.dir/calculatepercentages.c.o -o cmake_example_exec

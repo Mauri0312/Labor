@@ -1,0 +1,3 @@
+/workspaces/Labor/Probe/build/CMakeFiles/projektentwurf.dir
+/workspaces/Labor/Probe/build/CMakeFiles/edit_cache.dir
+/workspaces/Labor/Probe/build/CMakeFiles/rebuild_cache.dir

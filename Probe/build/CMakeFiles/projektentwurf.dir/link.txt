@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/projektentwurf.dir/link.d CMakeFiles/projektentwurf.dir/main.c.o CMakeFiles/projektentwurf.dir/developer.c.o CMakeFiles/projektentwurf.dir/developer_group.c.o -o projektentwurf
