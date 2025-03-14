@@ -1,6 +1,6 @@
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
+#ifndef FUNCTIONS_H_CQ5ZD2xHFl
+#define FUNCTIONS_H_CQ5ZD2xHFl
 
-int add(int input1, int input2)
+int add_integers(int a, int b);
 
-#endif
+#endif /* FUNCTIONS_H_CQ5ZD2xHFl */

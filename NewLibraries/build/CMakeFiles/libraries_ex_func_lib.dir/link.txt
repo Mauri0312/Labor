@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibraries_ex_func_lib.a CMakeFiles/libraries_ex_func_lib.dir/src/functions.c.o
+/usr/bin/ranlib liblibraries_ex_func_lib.a

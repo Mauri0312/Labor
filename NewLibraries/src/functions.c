@@ -1,6 +1,6 @@
+#include "functions.h"
 
-int add(int input1, int input2)
+int add_integers(int a, int b)
 {
-    return input1+input2;
-
+    return a + b;
 }

@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/libraries_ex_exec.dir/link.d CMakeFiles/libraries_ex_exec.dir/src/main.c.o -o libraries_ex_exec  -Wl,-rpath,/workspaces/Labor/NewLibraries/build liblibraries_ex_func_lib.a liblibraries_ex_print_lib.so

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -Wl,--dependency-file=CMakeFiles/libraries_ex_print_lib.dir/link.d -shared -Wl,-soname,liblibraries_ex_print_lib.so -o liblibraries_ex_print_lib.so CMakeFiles/libraries_ex_print_lib.dir/src/prints.c.o
