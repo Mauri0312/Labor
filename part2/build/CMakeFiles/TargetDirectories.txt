@@ -1,0 +1,5 @@
+/workspaces/Labor/part2/build/CMakeFiles/student_class.dir
+/workspaces/Labor/part2/build/CMakeFiles/firsttest.dir
+/workspaces/Labor/part2/build/CMakeFiles/student_test.dir
+/workspaces/Labor/part2/build/CMakeFiles/edit_cache.dir
+/workspaces/Labor/part2/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/student_test.dir/student_struct.cpp.o -o student_test  libstudent_class.a
