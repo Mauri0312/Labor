@@ -1,0 +1,7 @@
+add_test([=[StudentTest.init]=]  /workspaces/Labor/homework2-1/build/tests [==[--gtest_filter=StudentTest.init]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StudentTest.init]=]  PROPERTIES WORKING_DIRECTORY /workspaces/Labor/homework2-1/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[StudentTest.AddGrades]=]  /workspaces/Labor/homework2-1/build/tests [==[--gtest_filter=StudentTest.AddGrades]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StudentTest.AddGrades]=]  PROPERTIES WORKING_DIRECTORY /workspaces/Labor/homework2-1/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[StudentTest.AddGradesOverflow]=]  /workspaces/Labor/homework2-1/build/tests [==[--gtest_filter=StudentTest.AddGradesOverflow]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StudentTest.AddGradesOverflow]=]  PROPERTIES WORKING_DIRECTORY /workspaces/Labor/homework2-1/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  tests_TESTS StudentTest.init StudentTest.AddGrades StudentTest.AddGradesOverflow)

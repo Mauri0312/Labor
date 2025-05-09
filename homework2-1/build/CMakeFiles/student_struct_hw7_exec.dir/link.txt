@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/student_struct_hw7_exec.dir/link.d CMakeFiles/student_struct_hw7_exec.dir/src/main.c.o -o student_struct_hw7_exec  libstudent_struct.a

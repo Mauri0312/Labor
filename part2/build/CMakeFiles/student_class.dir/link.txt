@@ -1,2 +1,2 @@
-/usr/bin/ar qc libstudent_class.a CMakeFiles/student_class.dir/student_struct.cpp.o
+/usr/bin/ar qc libstudent_class.a CMakeFiles/student_class.dir/src/student_struct.cpp.o
 /usr/bin/ranlib libstudent_class.a

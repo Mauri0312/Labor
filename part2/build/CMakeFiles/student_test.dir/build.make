@@ -72,28 +72,28 @@ include CMakeFiles/student_test.dir/flags.make
 CMakeFiles/student_test.dir/codegen:
 .PHONY : CMakeFiles/student_test.dir/codegen
 
-CMakeFiles/student_test.dir/student_struct.cpp.o: CMakeFiles/student_test.dir/flags.make
-CMakeFiles/student_test.dir/student_struct.cpp.o: /workspaces/Labor/part2/student_struct.cpp
-CMakeFiles/student_test.dir/student_struct.cpp.o: CMakeFiles/student_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Labor/part2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_test.dir/student_struct.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_test.dir/student_struct.cpp.o -MF CMakeFiles/student_test.dir/student_struct.cpp.o.d -o CMakeFiles/student_test.dir/student_struct.cpp.o -c /workspaces/Labor/part2/student_struct.cpp
+CMakeFiles/student_test.dir/src/student_struct.cpp.o: CMakeFiles/student_test.dir/flags.make
+CMakeFiles/student_test.dir/src/student_struct.cpp.o: /workspaces/Labor/part2/src/student_struct.cpp
+CMakeFiles/student_test.dir/src/student_struct.cpp.o: CMakeFiles/student_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Labor/part2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_test.dir/src/student_struct.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/student_test.dir/src/student_struct.cpp.o -MF CMakeFiles/student_test.dir/src/student_struct.cpp.o.d -o CMakeFiles/student_test.dir/src/student_struct.cpp.o -c /workspaces/Labor/part2/src/student_struct.cpp
 
-CMakeFiles/student_test.dir/student_struct.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/student_test.dir/student_struct.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Labor/part2/student_struct.cpp > CMakeFiles/student_test.dir/student_struct.cpp.i
+CMakeFiles/student_test.dir/src/student_struct.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/student_test.dir/src/student_struct.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Labor/part2/src/student_struct.cpp > CMakeFiles/student_test.dir/src/student_struct.cpp.i
 
-CMakeFiles/student_test.dir/student_struct.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/student_test.dir/student_struct.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Labor/part2/student_struct.cpp -o CMakeFiles/student_test.dir/student_struct.cpp.s
+CMakeFiles/student_test.dir/src/student_struct.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/student_test.dir/src/student_struct.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Labor/part2/src/student_struct.cpp -o CMakeFiles/student_test.dir/src/student_struct.cpp.s
 
 # Object files for target student_test
 student_test_OBJECTS = \
-"CMakeFiles/student_test.dir/student_struct.cpp.o"
+"CMakeFiles/student_test.dir/src/student_struct.cpp.o"
 
 # External object files for target student_test
 student_test_EXTERNAL_OBJECTS =
 
-student_test: CMakeFiles/student_test.dir/student_struct.cpp.o
+student_test: CMakeFiles/student_test.dir/src/student_struct.cpp.o
 student_test: CMakeFiles/student_test.dir/build.make
 student_test: libstudent_class.a
 student_test: CMakeFiles/student_test.dir/link.txt

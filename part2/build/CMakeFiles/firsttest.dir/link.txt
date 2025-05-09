@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/firsttest.dir/first_try.cpp.o -o firsttest
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/firsttest.dir/src/first_try.cpp.o -o firsttest

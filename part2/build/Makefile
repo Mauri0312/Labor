@@ -155,56 +155,56 @@ student_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_test.dir/build.make CMakeFiles/student_test.dir/build
 .PHONY : student_test/fast
 
-first_try.o: first_try.cpp.o
-.PHONY : first_try.o
+src/first_try.o: src/first_try.cpp.o
+.PHONY : src/first_try.o
 
 # target to build an object file
-first_try.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/firsttest.dir/build.make CMakeFiles/firsttest.dir/first_try.cpp.o
-.PHONY : first_try.cpp.o
+src/first_try.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/firsttest.dir/build.make CMakeFiles/firsttest.dir/src/first_try.cpp.o
+.PHONY : src/first_try.cpp.o
 
-first_try.i: first_try.cpp.i
-.PHONY : first_try.i
+src/first_try.i: src/first_try.cpp.i
+.PHONY : src/first_try.i
 
 # target to preprocess a source file
-first_try.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/firsttest.dir/build.make CMakeFiles/firsttest.dir/first_try.cpp.i
-.PHONY : first_try.cpp.i
+src/first_try.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/firsttest.dir/build.make CMakeFiles/firsttest.dir/src/first_try.cpp.i
+.PHONY : src/first_try.cpp.i
 
-first_try.s: first_try.cpp.s
-.PHONY : first_try.s
+src/first_try.s: src/first_try.cpp.s
+.PHONY : src/first_try.s
 
 # target to generate assembly for a file
-first_try.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/firsttest.dir/build.make CMakeFiles/firsttest.dir/first_try.cpp.s
-.PHONY : first_try.cpp.s
+src/first_try.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/firsttest.dir/build.make CMakeFiles/firsttest.dir/src/first_try.cpp.s
+.PHONY : src/first_try.cpp.s
 
-student_struct.o: student_struct.cpp.o
-.PHONY : student_struct.o
+src/student_struct.o: src/student_struct.cpp.o
+.PHONY : src/student_struct.o
 
 # target to build an object file
-student_struct.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_class.dir/build.make CMakeFiles/student_class.dir/student_struct.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_test.dir/build.make CMakeFiles/student_test.dir/student_struct.cpp.o
-.PHONY : student_struct.cpp.o
+src/student_struct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_class.dir/build.make CMakeFiles/student_class.dir/src/student_struct.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_test.dir/build.make CMakeFiles/student_test.dir/src/student_struct.cpp.o
+.PHONY : src/student_struct.cpp.o
 
-student_struct.i: student_struct.cpp.i
-.PHONY : student_struct.i
+src/student_struct.i: src/student_struct.cpp.i
+.PHONY : src/student_struct.i
 
 # target to preprocess a source file
-student_struct.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_class.dir/build.make CMakeFiles/student_class.dir/student_struct.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_test.dir/build.make CMakeFiles/student_test.dir/student_struct.cpp.i
-.PHONY : student_struct.cpp.i
+src/student_struct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_class.dir/build.make CMakeFiles/student_class.dir/src/student_struct.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_test.dir/build.make CMakeFiles/student_test.dir/src/student_struct.cpp.i
+.PHONY : src/student_struct.cpp.i
 
-student_struct.s: student_struct.cpp.s
-.PHONY : student_struct.s
+src/student_struct.s: src/student_struct.cpp.s
+.PHONY : src/student_struct.s
 
 # target to generate assembly for a file
-student_struct.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_class.dir/build.make CMakeFiles/student_class.dir/student_struct.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_test.dir/build.make CMakeFiles/student_test.dir/student_struct.cpp.s
-.PHONY : student_struct.cpp.s
+src/student_struct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_class.dir/build.make CMakeFiles/student_class.dir/src/student_struct.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/student_test.dir/build.make CMakeFiles/student_test.dir/src/student_struct.cpp.s
+.PHONY : src/student_struct.cpp.s
 
 # Help Target
 help:
@@ -217,12 +217,12 @@ help:
 	@echo "... firsttest"
 	@echo "... student_class"
 	@echo "... student_test"
-	@echo "... first_try.o"
-	@echo "... first_try.i"
-	@echo "... first_try.s"
-	@echo "... student_struct.o"
-	@echo "... student_struct.i"
-	@echo "... student_struct.s"
+	@echo "... src/first_try.o"
+	@echo "... src/first_try.i"
+	@echo "... src/first_try.s"
+	@echo "... src/student_struct.o"
+	@echo "... src/student_struct.i"
+	@echo "... src/student_struct.s"
 .PHONY : help
 
 

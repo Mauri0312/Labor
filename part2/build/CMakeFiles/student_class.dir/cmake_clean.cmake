@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/student_class.dir/student_struct.cpp.o"
-  "CMakeFiles/student_class.dir/student_struct.cpp.o.d"
+  "CMakeFiles/student_class.dir/src/student_struct.cpp.o"
+  "CMakeFiles/student_class.dir/src/student_struct.cpp.o.d"
   "libstudent_class.a"
   "libstudent_class.pdb"
 )

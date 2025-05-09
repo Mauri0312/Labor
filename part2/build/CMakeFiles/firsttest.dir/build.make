@@ -72,28 +72,28 @@ include CMakeFiles/firsttest.dir/flags.make
 CMakeFiles/firsttest.dir/codegen:
 .PHONY : CMakeFiles/firsttest.dir/codegen
 
-CMakeFiles/firsttest.dir/first_try.cpp.o: CMakeFiles/firsttest.dir/flags.make
-CMakeFiles/firsttest.dir/first_try.cpp.o: /workspaces/Labor/part2/first_try.cpp
-CMakeFiles/firsttest.dir/first_try.cpp.o: CMakeFiles/firsttest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Labor/part2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/firsttest.dir/first_try.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/firsttest.dir/first_try.cpp.o -MF CMakeFiles/firsttest.dir/first_try.cpp.o.d -o CMakeFiles/firsttest.dir/first_try.cpp.o -c /workspaces/Labor/part2/first_try.cpp
+CMakeFiles/firsttest.dir/src/first_try.cpp.o: CMakeFiles/firsttest.dir/flags.make
+CMakeFiles/firsttest.dir/src/first_try.cpp.o: /workspaces/Labor/part2/src/first_try.cpp
+CMakeFiles/firsttest.dir/src/first_try.cpp.o: CMakeFiles/firsttest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/Labor/part2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/firsttest.dir/src/first_try.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/firsttest.dir/src/first_try.cpp.o -MF CMakeFiles/firsttest.dir/src/first_try.cpp.o.d -o CMakeFiles/firsttest.dir/src/first_try.cpp.o -c /workspaces/Labor/part2/src/first_try.cpp
 
-CMakeFiles/firsttest.dir/first_try.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/firsttest.dir/first_try.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Labor/part2/first_try.cpp > CMakeFiles/firsttest.dir/first_try.cpp.i
+CMakeFiles/firsttest.dir/src/first_try.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/firsttest.dir/src/first_try.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Labor/part2/src/first_try.cpp > CMakeFiles/firsttest.dir/src/first_try.cpp.i
 
-CMakeFiles/firsttest.dir/first_try.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/firsttest.dir/first_try.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Labor/part2/first_try.cpp -o CMakeFiles/firsttest.dir/first_try.cpp.s
+CMakeFiles/firsttest.dir/src/first_try.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/firsttest.dir/src/first_try.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Labor/part2/src/first_try.cpp -o CMakeFiles/firsttest.dir/src/first_try.cpp.s
 
 # Object files for target firsttest
 firsttest_OBJECTS = \
-"CMakeFiles/firsttest.dir/first_try.cpp.o"
+"CMakeFiles/firsttest.dir/src/first_try.cpp.o"
 
 # External object files for target firsttest
 firsttest_EXTERNAL_OBJECTS =
 
-firsttest: CMakeFiles/firsttest.dir/first_try.cpp.o
+firsttest: CMakeFiles/firsttest.dir/src/first_try.cpp.o
 firsttest: CMakeFiles/firsttest.dir/build.make
 firsttest: CMakeFiles/firsttest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/Labor/part2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable firsttest"

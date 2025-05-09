@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/Labor/part2/student_struct.cpp" "CMakeFiles/student_class.dir/student_struct.cpp.o" "gcc" "CMakeFiles/student_class.dir/student_struct.cpp.o.d"
+  "/workspaces/Labor/part2/src/student_struct.cpp" "CMakeFiles/student_class.dir/src/student_struct.cpp.o" "gcc" "CMakeFiles/student_class.dir/src/student_struct.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
