@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/arrays2.dir/link.d CMakeFiles/arrays2.dir/arrays2.cpp.o -o arrays2

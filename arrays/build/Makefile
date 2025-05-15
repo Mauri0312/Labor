@@ -503,6 +503,19 @@ arrays/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrays.dir/build.make CMakeFiles/arrays.dir/build
 .PHONY : arrays/fast
 
+#=============================================================================
+# Target rules for targets named arrays2
+
+# Build rule for target.
+arrays2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrays2
+.PHONY : arrays2
+
+# fast build rule for target.
+arrays2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrays2.dir/build.make CMakeFiles/arrays2.dir/build
+.PHONY : arrays2/fast
+
 arrays.o: arrays.cpp.o
 .PHONY : arrays.o
 
@@ -526,6 +539,30 @@ arrays.s: arrays.cpp.s
 arrays.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrays.dir/build.make CMakeFiles/arrays.dir/arrays.cpp.s
 .PHONY : arrays.cpp.s
+
+arrays2.o: arrays2.cpp.o
+.PHONY : arrays2.o
+
+# target to build an object file
+arrays2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrays2.dir/build.make CMakeFiles/arrays2.dir/arrays2.cpp.o
+.PHONY : arrays2.cpp.o
+
+arrays2.i: arrays2.cpp.i
+.PHONY : arrays2.i
+
+# target to preprocess a source file
+arrays2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrays2.dir/build.make CMakeFiles/arrays2.dir/arrays2.cpp.i
+.PHONY : arrays2.cpp.i
+
+arrays2.s: arrays2.cpp.s
+.PHONY : arrays2.s
+
+# target to generate assembly for a file
+arrays2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrays2.dir/build.make CMakeFiles/arrays2.dir/arrays2.cpp.s
+.PHONY : arrays2.cpp.s
 
 # Help Target
 help:
@@ -565,9 +602,13 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... arrays"
+	@echo "... arrays2"
 	@echo "... arrays.o"
 	@echo "... arrays.i"
 	@echo "... arrays.s"
+	@echo "... arrays2.o"
+	@echo "... arrays2.i"
+	@echo "... arrays2.s"
 .PHONY : help
 
 

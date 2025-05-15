@@ -16,3 +16,4 @@ enable_testing()
 
 # add an executabel and assign files to it
 add_executable(arrays arrays.cpp)
+add_executable(arrays2 arrays2.cpp)
