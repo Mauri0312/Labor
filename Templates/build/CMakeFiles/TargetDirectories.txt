@@ -1,0 +1,3 @@
+/workspaces/Labor/Templates/build/CMakeFiles/Template.dir
+/workspaces/Labor/Templates/build/CMakeFiles/edit_cache.dir
+/workspaces/Labor/Templates/build/CMakeFiles/rebuild_cache.dir
