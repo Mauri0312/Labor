@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/hw24_animals_exec.dir/link.d CMakeFiles/hw24_animals_exec.dir/src/main.cpp.o -o hw24_animals_exec  libhw24_animals.a

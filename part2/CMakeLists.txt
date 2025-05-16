@@ -29,7 +29,7 @@ target_include_directories(arrays PRIVATE include)
 # Link the student_class library to the student_class_test executable
 target_link_libraries(student_test PUBLIC student_class)
 # Include directories (if needed)
-target_include_directories(part2 PRIVATE include)
+#target_include_directories(part2 PRIVATE include)
 
 # Link libraries (if needed)
 # target_link_libraries(Part2 PRIVATE some_library)

@@ -1,0 +1,5 @@
+add_test([=[AnimalTest.initMammal]=]  /workspaces/Labor/hw2-4/build/hw23_animals_tests [==[--gtest_filter=AnimalTest.initMammal]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[AnimalTest.initMammal]=]  PROPERTIES WORKING_DIRECTORY /workspaces/Labor/hw2-4/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[AnimalTest.initSpider]=]  /workspaces/Labor/hw2-4/build/hw23_animals_tests [==[--gtest_filter=AnimalTest.initSpider]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[AnimalTest.initSpider]=]  PROPERTIES WORKING_DIRECTORY /workspaces/Labor/hw2-4/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  hw23_animals_tests_TESTS AnimalTest.initMammal AnimalTest.initSpider)

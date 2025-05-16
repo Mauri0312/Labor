@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/hw24_animals_tests.dir/link.d CMakeFiles/hw24_animals_tests.dir/test/test_animals.cpp.o -o hw24_animals_tests  libhw24_animals.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a
