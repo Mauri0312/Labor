@@ -1,0 +1,6 @@
+<map id="Cat" name="Cat">
+<area shape="rect" id="Node000001" title=" " alt="" coords="17,79,61,104"/>
+<area shape="rect" id="Node000002" href="$classAnimal.html" title=" " alt="" coords="5,5,73,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="33,44,35,78,30,79,28,45"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="51,45,49,79,44,78,45,44"/>
+</map>

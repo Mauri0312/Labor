@@ -1,0 +1,26 @@
+\doxysection{student\+\_\+struct.\+hpp}
+\hypertarget{student__struct_8hpp_source}{}\label{student__struct_8hpp_source}\index{part2/include/student\_struct.hpp@{part2/include/student\_struct.hpp}}
+\mbox{\hyperlink{student__struct_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ STUDENT\_STRUCT\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ STUDENT\_STRUCT\_HPP}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <cstdint>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classStudent}{Student}}}
+\DoxyCodeLine{00006\ \{}
+\DoxyCodeLine{00007\ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00008\ \ \ \ \ int16\_t\ \mbox{\hyperlink{classStudent_ac2fd89cdb6a1eb67e6dc9725a84034f2}{num\_of\_exams}}\ =\ 0;}
+\DoxyCodeLine{00009\ \ \ \ \ int32\_t\ \mbox{\hyperlink{classStudent_add4c6df7dfd28bcc8ae30adfeef56a72}{id\_number}};}
+\DoxyCodeLine{00010\ \ \ \ \ std::string\ \mbox{\hyperlink{classStudent_a9aeb48a925f370292564def17482f0ec}{name}};}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{comment}{//\ define\ a\ constructor}}
+\DoxyCodeLine{00012\ \ \ \ \ \mbox{\hyperlink{classStudent}{Student}}(std::string\ par\_name,\ int32\_t\ par\_id,\ int64\_t\ par\_bank\_account);}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classStudent_abdbb14cd83ef23c09f811bd1e30ddd4f}{print}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classStudent_a821be2c03d0aa63c16da4686409e3bf5}{update\_bank\_account}}(int64\_t\ par\_bank\_account);}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \ \ \ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ int64\_t\ bank\_account\_;}
+\DoxyCodeLine{00018\ \};}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

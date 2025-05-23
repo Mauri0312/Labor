@@ -1,0 +1,3 @@
+/workspaces/Labor/stlandtypecasting/build/CMakeFiles/STLandtypecasting.dir
+/workspaces/Labor/stlandtypecasting/build/CMakeFiles/edit_cache.dir
+/workspaces/Labor/stlandtypecasting/build/CMakeFiles/rebuild_cache.dir

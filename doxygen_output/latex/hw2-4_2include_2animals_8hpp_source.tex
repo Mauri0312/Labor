@@ -1,0 +1,33 @@
+\doxysection{animals.\+hpp}
+\hypertarget{hw2-4_2include_2animals_8hpp_source}{}\label{hw2-4_2include_2animals_8hpp_source}\index{hw2-\/4/include/animals.hpp@{hw2-\/4/include/animals.hpp}}
+\mbox{\hyperlink{hw2-4_2include_2animals_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ANIMALS\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ANIMALS\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <cstdint>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classAnimal}{Animal}}}
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00009\ \ \ \ \ uint8\_t\ \mbox{\hyperlink{classAnimal_a44dd28361897f3b85d9939169f6b1871}{num\_of\_feet\_}}\ =\ 0;}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00011\ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keyword}{auto}\ \mbox{\hyperlink{classAnimal_a4db37775f20544a5334a32a02e51c3d8}{get\_num\_of\_feet}}()\ -\/>\ uint8\_t;}
+\DoxyCodeLine{00013\ \};}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSpider}{Spider}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classAnimal}{Animal}}}
+\DoxyCodeLine{00016\ \{}
+\DoxyCodeLine{00017\ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{classSpider_a17feb5805656f8aea7b553de8a4adbde}{Spider}}();}
+\DoxyCodeLine{00019\ \};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classMammal}{Mammal}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classAnimal}{Animal}}}
+\DoxyCodeLine{00022\ \{}
+\DoxyCodeLine{00023\ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classMammal}{Mammal}}(uint8\_t);}
+\DoxyCodeLine{00025\ \};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ ANIMALS\_HPP\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

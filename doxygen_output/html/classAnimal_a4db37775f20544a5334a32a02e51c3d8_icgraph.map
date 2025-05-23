@@ -1,0 +1,9 @@
+<map id="Animal::get_num_of_feet" name="Animal::get_num_of_feet">
+<area shape="rect" id="Node000001" title=" " alt="" coords="108,55,295,80"/>
+<area shape="rect" id="Node000002" href="$hw2-4_2src_2main_8cpp.html#a8216c1645620cdb2f629cde3ac02ffef" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,53,59,28,61,23,145,48"/>
+<area shape="rect" id="Node000003" href="$hw2-3_2test_2test__animals_8cpp.html#a33bafa019ed3d3493131abcc1f9991cd" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+<area shape="rect" id="Node000004" href="$hw2-3_2test_2test__animals_8cpp.html#a6349f8eb2f3b1fefb3c3cff9d4126ec8" title=" " alt="" coords="5,104,60,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,86,61,111,59,106,143,81"/>
+</map>

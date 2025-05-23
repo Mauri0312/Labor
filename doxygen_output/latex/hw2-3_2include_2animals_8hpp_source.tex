@@ -1,0 +1,41 @@
+\doxysection{animals.\+hpp}
+\hypertarget{hw2-3_2include_2animals_8hpp_source}{}\label{hw2-3_2include_2animals_8hpp_source}\index{hw2-\/3/include/animals.hpp@{hw2-\/3/include/animals.hpp}}
+\mbox{\hyperlink{hw2-3_2include_2animals_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ANIMALS\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ANIMALS\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <cstdint>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classAnimal}{Animal}}}
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \ \ \ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00009\ \ \ \ \ uint8\_t\ \mbox{\hyperlink{classAnimal_a44dd28361897f3b85d9939169f6b1871}{num\_of\_feet\_}}\ =\ 0;}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{classAnimal_aa446252c0f8f5a34753b0ba00e9a6688}{speed\_}};}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{classAnimal_acee35a3fb461a97267b95cf69d645271}{position\_}}\ =\ 0;}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keyword}{auto}\ \mbox{\hyperlink{classAnimal_a4db37775f20544a5334a32a02e51c3d8}{get\_num\_of\_feet}}()\ -\/>\ uint8\_t;}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classAnimal_a7ae91214155a064b6f632255c16bf342}{move}}(\textcolor{keywordtype}{double})\ =\ 0;}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classAnimal_a557fe0d71dda75be2f8459ce0d7c2275}{die}}();}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keyword}{virtual}\ \mbox{\hyperlink{classAnimal_a476af25adde5f0dfa688129c8f86fa5c}{\string~Animal}}();}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keyword}{auto}\ \mbox{\hyperlink{classAnimal_a8eb13a6e42966a0ac52398c319d01fa1}{get\_position}}()\ -\/>\ double;}
+\DoxyCodeLine{00019\ \};}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classSpider}{Spider}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classAnimal}{Animal}}}
+\DoxyCodeLine{00022\ \{}
+\DoxyCodeLine{00023\ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classSpider_a17feb5805656f8aea7b553de8a4adbde}{Spider}}(\textcolor{keywordtype}{double});}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classSpider_a9d3c5bf70a2ebcdc4d89ffe0be0ead25}{move}}(\textcolor{keywordtype}{double}\ time)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00026\ \};}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00028\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classMammal}{Mammal}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classAnimal}{Animal}}}
+\DoxyCodeLine{00029\ \{}
+\DoxyCodeLine{00030\ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{classMammal}{Mammal}}(uint8\_t,\ \textcolor{keywordtype}{double});}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classMammal_a58fdd9ff25542dc1675661ab0c5d06dc}{move}}(\textcolor{keywordtype}{double}\ time)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00033\ \};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ ANIMALS\_HPP\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

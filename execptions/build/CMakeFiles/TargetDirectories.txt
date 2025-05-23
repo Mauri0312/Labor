@@ -1,0 +1,3 @@
+/workspaces/Labor/execptions/build/CMakeFiles/execptions.dir
+/workspaces/Labor/execptions/build/CMakeFiles/edit_cache.dir
+/workspaces/Labor/execptions/build/CMakeFiles/rebuild_cache.dir

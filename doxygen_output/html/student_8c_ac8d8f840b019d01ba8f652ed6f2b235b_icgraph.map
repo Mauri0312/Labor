@@ -1,0 +1,9 @@
+<map id="student_add_grade" name="student_add_grade">
+<area shape="rect" id="Node000001" title=" " alt="" coords="123,55,269,80"/>
+<area shape="rect" id="Node000002" href="$homework2-1_2src_2main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title=" " alt="" coords="13,5,67,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,53,67,29,68,24,143,48"/>
+<area shape="rect" id="Node000003" href="$test__student__struct_8cpp.html#a40484876f237e558061426ee9266532f" title=" " alt="" coords="5,55,75,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,70,75,70,75,65,109,65"/>
+<area shape="rect" id="Node000004" href="$test__student__struct_8cpp.html#ad590534570ae240bbafb202152bb0e17" title=" " alt="" coords="5,104,75,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="143,87,76,108,74,103,142,82"/>
+</map>

@@ -1,0 +1,25 @@
+\doxysection{student.\+h}
+\hypertarget{student_8h_source}{}\label{student_8h_source}\index{homework2-\/1/include/student.h@{homework2-\/1/include/student.h}}
+\mbox{\hyperlink{student_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ STUDENT\_H\_}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ STUDENT\_H\_}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#define\ NUMBER\_OF\_EXAMS\ (5U)}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#define\ NAME\_LENGTH\ (25U)}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{typedef}\ \textcolor{keyword}{struct}}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structstudent_aded46765d5a58e9c0a1414a4746a425f}{id}};}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{char}\ name[\mbox{\hyperlink{student_8h_af71324c57f05ff9e24bd384925dd6b17}{NAME\_LENGTH}}];}
+\DoxyCodeLine{00011\ \ \ \ \ \textcolor{keywordtype}{float}\ grades[\mbox{\hyperlink{student_8h_a347c0bc61da5fb3747ffbdbf89b35260}{NUMBER\_OF\_EXAMS}}];}
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structstudent_aac9f7c6a12b8ab2ade47cccddf13aaca}{num\_of\_grades}};}
+\DoxyCodeLine{00013\ \}\ \mbox{\hyperlink{structstudent}{student}};}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{student_8h_a3c390c545e80522651561f10d72601e1}{student\_init}}(\mbox{\hyperlink{structstudent}{student}}\ *\textcolor{keyword}{const}\ s,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ name[]);}
+\DoxyCodeLine{00016\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{student_8h_ab3653b5323be4ba5b0a3b07da7d752a8}{student\_print}}(\mbox{\hyperlink{structstudent}{student}}\ \textcolor{keyword}{const}\ *\textcolor{keyword}{const}\ s);}
+\DoxyCodeLine{00017\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{student_8h_ac8d8f840b019d01ba8f652ed6f2b235b}{student\_add\_grade}}(\mbox{\hyperlink{structstudent}{student}}\ *\textcolor{keyword}{const}\ s,\ \textcolor{keywordtype}{float}\ grade);}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ STUDENT\_H\_\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}
