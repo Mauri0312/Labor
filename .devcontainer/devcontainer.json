@@ -1,7 +1,7 @@
 {
-  	"image": "benniwi/learn2code:24.04_base",
+  "image": "benniwi/learn2code:24.04_lecture",
 
-  	// Configure tool-specific properties.
+  // Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {		
@@ -9,7 +9,6 @@
 			"extensions": [
 				"donjayamanne.githistory",
 				"ms-python.python",
-				"twxs.cmake",
 				"mhutchie.git-graph",
 				"ms-vscode.cpptools-themes",
 				"cs128.cs128-clang-tidy",
@@ -24,9 +23,9 @@
 				"DavidAnson.vscode-markdownlint",
 				"mdickin.markdown-shortcuts",
 				"ElecTreeFrying.insert-random-text",
-				"ElecTreeFrying.insert-random-text",
 				"streetsidesoftware.code-spell-checker-british-english",
-				"streetsidesoftware.code-spell-checker-german"
+				"streetsidesoftware.code-spell-checker-german",
+				"simpletoolsdev.opencv-image"
 			]
 		}
 	}

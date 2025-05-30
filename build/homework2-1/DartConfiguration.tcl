@@ -11,7 +11,7 @@ BuildDirectory: /workspaces/Labor/build/homework2-1
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: codespaces-f08956
+Site: codespaces-2617db
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Linux-c++
